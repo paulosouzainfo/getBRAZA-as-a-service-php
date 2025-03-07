@@ -22,5 +22,10 @@ print_r($response);
 
 ## Testes
 ```bash
-phpunit tests/
+composer test
+```
+
+Para rodar os testes e gerar um relatório de cobertura:
+```bash
+composer test-coverage
 ```
